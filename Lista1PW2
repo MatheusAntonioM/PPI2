@@ -1,0 +1,84 @@
+<?php
+// 1. Exibir "Olá, mundo!"
+echo "Olá, mundo!";
+
+// 2. Comentários explicando o código
+// Este código declara uma variável chamada $nome e atribui o valor "Maria"
+// Em seguida, exibe esse valor na tela
+
+/*
+O código abaixo define uma variável $nome com um valor de string
+e usa a função echo para imprimir esse valor no navegador
+*/
+$nome = "Maria";
+echo $nome;
+
+// 3. Variável $idade e exibição do valor
+$idade = 20;
+echo $idade;
+
+// 4. Alteração do valor da variável $cidade
+$cidade = "Recife";
+echo $cidade;
+$cidade = "Fortaleza";
+echo $cidade;
+
+// 5. Mensagem com variável $curso
+$curso = "PHP Básico";
+echo "Você está matriculado no curso: $curso";
+
+// 6. Exibir dois números separados por espaço
+$numero1 = 10;
+$numero2 = 20;
+echo "$numero1 $numero2";
+
+// 7. Exibir nome completo
+$primeiroNome = "João";
+$ultimoNome = "Silva";
+echo "$primeiroNome $ultimoNome";
+
+// 8. Soma de duas variáveis
+$a = 5;
+$b = 3;
+$soma = $a + $b;
+echo $soma;
+
+// 9. Exibir mensagem com produto e quantidade
+$produto = "Caneta";
+$quantidade = 10;
+echo "Produto: $produto - Quantidade: $quantidade";
+
+// 10. Exibir o preço
+$preco = 15.99;
+echo $preco;
+
+// 11. Cálculo da média de três notas
+$nota1 = 7.5;
+$nota2 = 8.0;
+$nota3 = 9.2;
+$media = ($nota1 + $nota2 + $nota3) / 3;
+echo $media;
+
+// 12. Cálculo da idade com base no ano de nascimento
+$anoNascimento = 2000;
+$anoAtual = 2025;
+$idade = $anoAtual - $anoNascimento;
+echo $idade;
+
+// 13. Exibir frase em letras maiúsculas
+$frase = "Aprender PHP é muito legal!";
+echo strtoupper($frase);
+
+// 14. Cálculo do perímetro do retângulo
+$base = 10;
+$altura = 5;
+$perimetro = 2 * ($base + $altura);
+echo $perimetro;
+
+// 15. Cálculo do volume do cilindro
+$raio = 3.5;
+$altura = 10;
+$pi = 3.1416;
+$volume = $pi * pow($raio, 2) * $altura;
+echo $volume;
+?>
