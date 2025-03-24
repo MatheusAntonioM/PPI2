@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seja um Voluntário - Esperança Verde</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Esperança Verde</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="comunidade.html">Comunidade</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Junte-se a nós como voluntário!</h2>
+        <p>Preencha o formulário abaixo para se inscrever.</p>
+        <form id="form-voluntario">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone">
+
+            <label for="area">Área de Interesse:</label>
+            <select id="area" name="area">
+                <option value="reflorestamento">Reflorestamento</option>
+                <option value="educacao">Educação Ambiental</option>
+                <option value="comunidade">Trabalho com Comunidades</option>
+                <option value="outros">Outros</option>
+            </select>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+
+            <button type="submit">Enviar Inscrição</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Esperança Verde. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
